@@ -4,8 +4,10 @@
     </div>
 </template>
 
-<script setup>
-
+<script>
+export default {
+    name: 'ContentComponent',
+}
 </script>
 
 <style scoped>
