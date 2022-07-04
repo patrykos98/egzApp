@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
+  <div id="main">
     <NavComponent />
     <ContentComponent />
     <FooterComponent />
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import NavComponent from './components/Nav.vue'
 import ContentComponent from './components/Content.vue'
 import FooterComponent from './components/Footer.vue'
@@ -14,13 +14,13 @@ import FooterComponent from './components/Footer.vue'
 
 
 
-<!-- <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style>
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
-</style> -->
+</style>
