@@ -1,6 +1,7 @@
 <template>
     <div class="content">
-        Treść Treść Treść
+        <router-view></router-view>
+        
     </div>
 </template>
 
