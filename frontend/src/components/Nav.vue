@@ -1,7 +1,7 @@
 <template>
     <div class="nav">
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/dupka/">Dodaj post</RouterLink>
+        <RouterLink to="/AddArticle/">Dodaj post</RouterLink>
     </div>
 </template>
 

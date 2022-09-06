@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import HomeComponent from "./templates/Home.vue"
-import DupkaComponent from "./templates/Dupka.vue"
+import AddArticle from "./templates/AddArticle.vue"
 
 const routes = [
     {
@@ -12,10 +12,12 @@ const routes = [
     },
 
     {
-        path:"/dupka/",
-        name:"Dupka",
-        component:DupkaComponent
+        path:"/addarticle/",
+        name:"AddArticle",
+        component:AddArticleComponent
     },
+
+
 ]
 
 const router = createRouter({ history: createWebHistory('/'), routes})
